@@ -15,6 +15,7 @@ autoMarkAni(inValue, stayValue, outValue, aniTime, aniDely, intMode, targetlayer
 //Depends: Enhanced Expression Library 1.0
 ```
 (进入数值,一般数值,退出数值,动画时间,动画延迟,插值模式,图层)  
+插值模式,可选「linear」「ease」「easeIn」「easeOut」  
 配合 getMarkerParameter 食用
 ```javascript
 MarkerKeyExtra.getMarkerParameter("last",thisLayer,0).comment;
@@ -43,10 +44,10 @@ arrayFloor(value);//数组向下取整
 ```javascript
 getTrimPathPoint(thePath,startEndValue,offSetValue);
 ```
-(路径,开始/结束点,偏移)
+(路径,开始/结束点, 偏移)
 
 ### 获取修剪路径上的点切线方向
 ```javascript
 getTrimPathPoint(thePath,startEndValue,offSetValue);
 ```
-(路径,开始/结束点,偏移)
+(路径,开始/结束点, 偏移)
