@@ -3,13 +3,18 @@ Con11‘s Expression Library
 
 模仿[鹤梦的表达式库](https://github.com/dreamstring/After-Effects-Enhanced-Expression)写的自用小库
 
+### 声明表达式库
+也可以在表达式库脚本右键帮助按钮载入临时库使用
+```javascript
+eval(footage("Con11‘s Expression Library.jsx").sourceText);
+```
 ## 简易使用说明
 ### 使用标记自动生成动画
 ```javascript
 autoMarkAni(inValue, stayValue, outValue, aniTime, aniDely, intMode, targetlayer);
 //Depends: Enhanced Expression Library 1.0
 ```
-(进入数值,一般数值,推出数值,动画时间,动画延迟,插值模式,图层)  
+(进入数值,一般数值,退出数值,动画时间,动画延迟,插值模式,图层)  
 配合 getMarkerParameter 食用
 ```javascript
 MarkerKeyExtra.getMarkerParameter("last",thisLayer,0).comment;
