@@ -1,7 +1,7 @@
 # Con11 的表达式库
 Con11‘s Expression Library
 
-模仿[鹤梦的表达式库](https://github.com/dreamstring/After-Effects-Enhanced-Expression)写的自用小库
+模仿[鹤梦的表达式增强库](https://github.com/dreamstring/After-Effects-Enhanced-Expression)写的自用小库
 
 ### 声明表达式库
 也可以在表达式库脚本右键帮助按钮载入临时库使用
