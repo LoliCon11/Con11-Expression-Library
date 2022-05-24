@@ -1,2 +1,47 @@
-# Con11-Expression-Library
-Con11的自用表达式库
+# Con11 的表达式库
+Con11‘s Expression Library
+
+模仿[鹤梦的表达式库](https://github.com/dreamstring/After-Effects-Enhanced-Expression)写的自用小库
+
+## 简易使用说明
+### 使用标记自动生成动画
+```javascript
+autoMarkAni(inValue, stayValue, outValue, aniTime, aniDely, intMode, targetlayer);
+//Depends: Enhanced Expression Library 1.0
+```
+(进入数值,一般数值,推出数值,动画时间,动画延迟,插值模式,图层)  
+配合 getMarkerParameter 食用
+```javascript
+MarkerKeyExtra.getMarkerParameter("last",thisLayer,0).comment;
+```
+
+### 获取图层真实旋转方向 
+```javascript
+getLayerRotion(targetLayer,returnMode);
+```
+(图层,0-3) 模式0-3分别输出单独XYZ和XYZ的数组
+
+### 获取图层真实坐标
+```javascript
+getLayerPos(targetLayer,returnMode);
+```
+(图层,0-3) 模式0-3分别输出单独XYZ和XYZ的数组
+
+### 快捷数组取整
+```javascript
+arrayRound(value);//数组四舍五入取整
+arrayTrunc(value);//数组去除小数
+arrayCeil(value);//数组向上取整
+arrayFloor(value);//数组向下取整
+```
+### 获取修剪路径上的点坐标
+```javascript
+getTrimPathPoint(thePath,startEndValue,offSetValue);
+```
+(路径,开始/结束点,偏移)
+
+### 获取修剪路径上的点切线方向
+```javascript
+getTrimPathPoint(thePath,startEndValue,offSetValue);
+```
+(路径,开始/结束点,偏移)
