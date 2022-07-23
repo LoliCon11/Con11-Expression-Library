@@ -31,10 +31,6 @@ autoMarkAni(0,100,0,0.2,0,"linear",targetlayer);
 //使用后会有字幕淡出淡入的效果
 ```
 
-```javascript
-MarkerKeyExtra.getMarkerParameter("last",thisLayer,0).comment;
-```
-
 ### 获取图层真实旋转方向 
 ```javascript
 getLayerRotion(targetLayer,returnMode);
