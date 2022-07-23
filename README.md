@@ -16,7 +16,7 @@ autoMarkAni(inValue, stayValue, outValue, aniTime, aniDely, intMode, targetlayer
 ```
 (进入数值,一般数值,退出数值,动画时间,动画延迟,插值模式,图层)  
 插值模式,可选「linear」「ease」「easeIn」「easeOut」  
-配合 getMarkerParameter 食用，如果配合P粒子使用会很卡，原因未知，可以使用[独立版的表达式](https://github.com/LoliCon11/Con11-Expression-Library/blob/main/Con11%E2%80%98s%20Expression%20Library.jsx)
+配合 getMarkerParameter 食用，如果配合P粒子使用会很卡，原因未知，可以使用[独立版的表达式](https://github.com/LoliCon11/Con11-Expression-Library/blob/main/AutoMarkAnimation%20V1.02.jsx)
 #### 示例
 在源文本属性使用 getMarkerParameter
 ```javascript
